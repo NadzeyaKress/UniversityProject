@@ -3,12 +3,12 @@
     internal abstract class UniversityEmployee
     {
         public Person Person { get; set; }
-        public string TaxID { get; set; }
+        public string TaxId { get; set; }
         
-        public UniversityEmployee(Person person, string taxID)
+        public UniversityEmployee(Person person, string taxId)
         {
             Person = person;
-            TaxID = taxID;
+            TaxId = taxId;
         }
 
         public abstract string GetOfficialDuties();

@@ -6,14 +6,14 @@ namespace University
         public Course Course { get; set; }
 
 
-        public Teacher(Person person, string taxID, Course course): base(person, taxID)
+        public Teacher(Person person, string taxId, Course course): base(person, taxId)
         {
             Course = course;
         }
 
         public override string GetOfficialDuties()
         {
-            return Person.FirstName + " " + Person.LastName + ", " + Course.Name;
+            return $"{Person.FirstName} {Person.LastName}, {Course.Name}";
         }
     }
 }

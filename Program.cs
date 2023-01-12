@@ -16,8 +16,12 @@ namespace University
             var c2 = new Course("Course 2", "Language");
             var c3 = new Course("Course 3", "Physics");
 
-            var e1 = new UniversityEmployee[] { new Teacher (p1, "1122",c2), new SupportStaff("Janitor", p2, "5566"), 
-                new DegreeTeacher("PhD", "Physics", p3, "4512", c3), new Teacher( p4, "1133", c1), new Teacher( p5, "1245", c2)  };
+            var e1 = new UniversityEmployee[] { 
+                new Teacher (p1, "1122",c2),
+                new SupportStaff("Janitor", p2, "5566"), 
+                new DegreeTeacher("PhD", "Physics", p3, "4512", c3),
+                new Teacher( p4, "1133", c1),
+                new Teacher( p5, "1245", c2)  };
          
             foreach (var e in e1) 
             {
