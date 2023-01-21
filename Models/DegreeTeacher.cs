@@ -1,11 +1,11 @@
-﻿namespace University
+﻿namespace University.Models
 {
-    internal class DegreeTeacher:Teacher
+    internal class DegreeTeacher : Teacher
     {
         public string Degree { get; set; }
         public string DegreeInf { get; set; }
 
-        public DegreeTeacher(string degree, string degreeInf, Person person, string taxId, Course course): 
+        public DegreeTeacher(string degree, string degreeInf, Person person, string taxId, Course course) :
             base(person, taxId, course)
         {
             Degree = degree;

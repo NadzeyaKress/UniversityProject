@@ -1,4 +1,4 @@
-﻿namespace University
+﻿namespace University.Models
 {
     internal class Course
     {
@@ -10,7 +10,5 @@
             Name = courseName;
             Description = description;
         }
-
-
     }
 }

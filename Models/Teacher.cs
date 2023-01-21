@@ -1,12 +1,11 @@
-﻿
-namespace University
+﻿namespace University.Models
 {
-    internal class Teacher: UniversityEmployee
+    internal class Teacher : UniversityEmployee
     {
         public Course Course { get; set; }
 
 
-        public Teacher(Person person, string taxId, Course course): base(person, taxId)
+        public Teacher(Person person, string taxId, Course course) : base(person, taxId)
         {
             Course = course;
         }

@@ -1,11 +1,11 @@
-﻿namespace University
+﻿namespace University.Models
 {
     internal class Person
     {
         public string FirstName { get; set; }
-        public string LastName{ get; set; }
+        public string LastName { get; set; }
 
-        public Person(string firstName, string lastName) 
+        public Person(string firstName, string lastName)
         {
             FirstName = firstName;
             LastName = lastName;
